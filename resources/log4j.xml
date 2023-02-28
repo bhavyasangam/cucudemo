@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration ststus="WARN">
+
+	<appender>
+		<Console name="console" target="SYSTEM.OUT">
+			<PatternLayout value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</Console>
+
+	</appender>
+	<loggers>
+		<root>
+			<level value="All" />
+			<appender-ref ref="console" />
+		</root>
+	</loggers>
+</Configuration>
